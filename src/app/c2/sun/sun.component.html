@@ -1,0 +1,8 @@
+<p>sun works!</p>
+<div style="background: pink">
+    <app-dady [kefi]="valueFromDady" (mounchies)="myValue = $event"></app-dady>
+</div>
+<div style="background: powderblue">
+    <input (input)="valueFromDady = $event.target.value" [value]="myValue"><br>
+</div>
+
